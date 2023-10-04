@@ -11,3 +11,13 @@
 .events{
     margin-bottom: 5rem;
 }
+
+.btn-date{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-date h3{
+    color: rgb(91, 91, 241);
+}
