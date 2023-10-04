@@ -1,0 +1,13 @@
+.card {
+    margin: 10px 0;
+}
+
+.events h2{
+    padding: 2rem;
+    font-family: 'Pacifico', cursive;
+    color: #5d5ddf;
+}
+
+.events{
+    margin-bottom: 5rem;
+}
