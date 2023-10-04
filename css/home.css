@@ -53,6 +53,12 @@ h1{
 
 .news{
     text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    width: 100%;
 }
 
 .footer h2{
@@ -72,16 +78,49 @@ h1{
 
 .rights{
     background-color: #5d5ddf;
+    width: 100%;
 }
 
 .rights p{
     color: #fff;
 }
 
+@media(min-width:790px){
+    .home p{
+        margin: 0 1rem;
+        font-size: 1.5rem;
+    }
+    #carouselExampleAutoplaying{
+        width: 70%;
+        margin: auto;
+    }
+    .map{
+        width: 80%;
+    }
+}
 
 
-
-
+@media(min-width:1200px){
+    .home p{
+        margin: 0 5rem;
+        font-size: 1.5rem;
+    }
+    #carouselExampleAutoplaying{
+        width: 50%;
+        margin: auto;
+    }
+    .accordion {
+        margin: 0 auto;
+        width: 50%;
+        margin-bottom: 5rem;
+    }
+    .map{
+        width: 80%;
+    }
+    .contact h2, .contact p{
+        font-size: 2rem;
+    }
+}
 
 
 
