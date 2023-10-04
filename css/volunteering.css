@@ -1,0 +1,32 @@
+/************************************************ bénévole **********************************/
+.voluntariat h2{
+    padding: 2rem;
+    font-family: 'Pacifico', cursive;
+    color: #5d5ddf;
+}
+
+.voluntariat p{
+    margin: 1rem 2rem;
+    font-size: 1.2rem;
+}
+
+.img-fluid{
+    height: 100%;
+    width: 100%;
+    border: #5d5ddf solid 3px;
+    border-radius: 10px;
+}
+
+.col-md-4{
+    margin: 0.5rem 0;
+}
+/************************************************ bénévole **********************************/
+
+/************************************************ bénévole bénévole media **********************************/
+@media(min-width:790px){
+    .voluntariat{
+        width: 80%;
+        margin-bottom: 5rem;
+    }
+}
+/************************************************ bénévole media **********************************/
