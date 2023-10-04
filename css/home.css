@@ -3,245 +3,13 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
+/************************************************ navbar **********************************/
 
 .logo{
     font-family: 'Pacifico', cursive;
     font-size: 1.3rem;
     color:#5d5ddf;
 }
-
-.home{
-    padding: 3rem;
-    text-align: center;
-}
-
-h1{
-    padding: 2rem;
-    font-family: 'Pacifico', cursive;
-    color: #5d5ddf;
-}
-
-.carousel-img {
-    width: 100%;
-    height: 40vh;
-}
-
-#carouselExampleAutoplaying{
-    width: 100%;
-    margin: auto;
-}
-
-.bénévole{
-    border: solid 1px #5d5ddfcb;
-    color: #5d5ddfcb;
-    transition: all 0.5s;
-    background-color: #fff;
-    border-radius: 10px;
-    margin-top: 2rem;
-}
-
-.bénévole:hover{
-    color: #ffff;
-    background-color: #5d5ddfcb;
-}
-
-.carousel-item h2{
-    padding-top: 1rem;
-    color: #5d5ddf;
-    font-family: 'Pacifico', cursive;
-}
-
-.news{
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
-.footer{
-    width: 100%;
-}
-
-.footer h2{
-    padding: 2rem;
-    font-family: 'Pacifico', cursive;
-    color: #5d5ddf;
-}
-
-.footer strong{
-    font-family: 'Pacifico', cursive;
-    color: #5d5ddf;
-}
-
-.footer p{
-    font-size: 1.4rem;
-}
-
-.rights{
-    background-color: #5d5ddf;
-    width: 100%;
-}
-
-.rights p{
-    color: #fff;
-}
-
-@media(min-width:790px){
-    .home p{
-        margin: 0 1rem;
-        font-size: 1.5rem;
-    }
-    #carouselExampleAutoplaying{
-        width: 70%;
-        margin: auto;
-    }
-    .map{
-        width: 80%;
-    }
-}
-
-
-@media(min-width:1200px){
-    .home p{
-        margin: 0 5rem;
-        font-size: 1.5rem;
-    }
-    #carouselExampleAutoplaying{
-        width: 50%;
-        margin: auto;
-    }
-    .accordion {
-        margin: 0 auto;
-        width: 50%;
-        margin-bottom: 5rem;
-    }
-    .map{
-        width: 80%;
-    }
-    .contact h2, .contact p{
-        font-size: 2rem;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .logo:hover{
@@ -286,3 +54,129 @@ h1{
     color: #ffff;
     background-color: #5d5ddfcb;
 }
+/************************************************ navbar **********************************/
+
+
+/************************************************ home **********************************/
+.home{
+    padding: 3rem;
+    text-align: center;
+}
+
+h1{
+    padding: 2rem;
+    font-family: 'Pacifico', cursive;
+    color: #5d5ddf;
+}
+
+.bénévole{
+    border: solid 1px #5d5ddfcb;
+    color: #5d5ddfcb;
+    transition: all 0.5s;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.bénévole:hover{
+    color: #ffff;
+    background-color: #5d5ddfcb;
+}
+/************************************************ home **********************************/
+
+/************************************************ actions **********************************/
+.carousel-img {
+    width: 100%;
+    height: 40vh;
+}
+
+#carouselExampleAutoplaying{
+    width: 100%;
+    margin: auto;
+}
+
+
+.carousel-item h2{
+    padding-top: 1rem;
+    color: #5d5ddf;
+    font-family: 'Pacifico', cursive;
+}
+/************************************************ actions **********************************/
+
+
+/************************************************ actualités **********************************/
+.news{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+/************************************************ actualités **********************************/
+
+/************************************************ contact **********************************/
+.footer{
+    width: 100%;
+}
+
+.footer h2{
+    padding: 2rem;
+    font-family: 'Pacifico', cursive;
+    color: #5d5ddf;
+}
+
+.footer strong{
+    font-family: 'Pacifico', cursive;
+    color: #5d5ddf;
+}
+
+.footer p{
+    font-size: 1.4rem;
+}
+
+.rights{
+    background-color: #5d5ddf;
+    width: 100%;
+}
+
+.rights p{
+    color: #fff;
+}
+/************************************************ contact **********************************/
+
+/************************************************ media **********************************/
+@media(min-width:790px){
+    .home p{
+        margin: 0 1rem;
+        font-size: 1.5rem;
+    }
+    #carouselExampleAutoplaying{
+        width: 70%;
+        margin: auto;
+    }
+    .map{
+        width: 80%;
+    }
+}
+
+
+@media(min-width:1200px){
+    .home p{
+        margin: 0 5rem;
+        font-size: 1.5rem;
+    }
+    #carouselExampleAutoplaying{
+        width: 50%;
+        margin: auto;
+    }
+    .accordion {
+        margin: 0 auto;
+        width: 50%;
+        margin-bottom: 5rem;
+    }
+    .map{
+        width: 80%;
+    }
+    .contact h2, .contact p{
+        font-size: 2rem;
+    }
+}
+/************************************************ media **********************************/
